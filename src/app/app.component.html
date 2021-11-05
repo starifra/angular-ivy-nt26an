@@ -1,10 +1,13 @@
-
 <table>
   <tr>
-    <td>Name</td>
-    <td>Age</td>
+    <td style="color:brown">Name</td>
+    <td style="color:brown">Age</td>
   </tr>
-  <tr>
+  <tr *ngFor="let ch of mychilds">
+    <td style="color:blue">{{ ch.name }}</td>
+    <td style="color:red">{{ ch.age }}</td>
+  </tr>
+  <!-- <tr>
   <td>{{firstChild.name}}</td>
   <td>{{firstChild.age}}</td>
 </tr>
@@ -12,4 +15,8 @@
   <td>{{secondChild.name}}</td>
   <td>{{secondChild.age}}</td>
 </tr>
+<tr>
+<td>{{thridChild.name}}</td>
+<td>{{thridChild.age}}</td>
+</tr> -->
 </table>
