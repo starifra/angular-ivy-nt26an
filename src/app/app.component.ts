@@ -7,9 +7,9 @@ import { MChild } from './child.model';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  public firstChild: MChild;
-  public secondChild:MChild;
-  public thridChild:MChild
+  //public firstChild: MChild;
+  //public secondChild:MChild;
+  //public thridChild:MChild
 public mychilds:MChild[]=[];
 
   constructor() {
@@ -17,9 +17,10 @@ public mychilds:MChild[]=[];
     this.mychilds.push({name:'Wania Waqar', age:8});
     this.mychilds.push({name:'Anshara Waqar', age:6});
     this.mychilds.push({name:'Umar Waqar', age:5});
- //   this.firstChild = {name:'Ayesha Waqar', age:10};
-    // this.firstChild.name = 'Ayesha Waqar';
-    // this.firstChild.age = 10;
+  //  this.firstChild = {name:'Ayesha Waqar', age:10};
+  //   this.firstChild.name = 'Ayesha Waqar';
+  //   this.firstChild.age = 10;
+  //   this.mychilds.push( this.firstChild );
  //   this.secondChild = {name:'wania waqar', age:8};
     // this.secondChild.name = 'Wania Waqar';
     // this.secondChild.age = 8;
