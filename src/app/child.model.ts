@@ -1,4 +1,4 @@
-export interface MChild {
+export class MChild {
   name: string;
   age: number;
 }
